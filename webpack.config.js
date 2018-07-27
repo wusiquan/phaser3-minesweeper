@@ -32,19 +32,19 @@ module.exports = {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
         include: path.resolve(__dirname, 'src/scss')
-      },
-      {
-        test: /\.(bmp|gif|jpg|jpeg|png|svg)$/,
-        include: path.resolve(__dirname, 'src/images'),
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]'
-            }
-          }
-        ]
       }
+      // {
+      //   test: /\.(bmp|gif|jpg|jpeg|png|svg)$/,
+      //   include: path.resolve(__dirname, 'src/images'),
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]'
+      //       }
+      //     }
+      //   ]
+      // }
     ]
   },
 

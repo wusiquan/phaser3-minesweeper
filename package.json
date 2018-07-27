@@ -10,19 +10,18 @@
   "author": "wusiquan",
   "license": "MIT",
   "devDependencies": {
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
+    "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.21.0",
     "ts-loader": "^4.3.0",
     "typescript": "^2.9.2",
-    "webpack": "^4.10.2",
-    "webpack-cli": "^2.1.4",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "phaser": "^3.10.1"
+    "phaser": "^3.11.0"
   }
 }
